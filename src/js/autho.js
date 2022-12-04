@@ -1,4 +1,4 @@
-import {clientId,authority,redirectUri} from '../../config.js'
+import {clientId,authority,redirectUri} from '/../../config.js'
 var loginBtn = document.getElementById('loginbtn');
 
 async function run(){
