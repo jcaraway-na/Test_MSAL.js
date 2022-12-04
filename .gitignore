@@ -38,4 +38,3 @@ public
 *.sublime-project
 *.sublime-workspace
 sftp-config.json
-config.js
