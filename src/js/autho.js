@@ -1,4 +1,4 @@
-import {clientId,authority,redirectUri} from '/../../config.js'
+
 var loginBtn = document.getElementById('loginbtn');
 
 async function run(){
@@ -6,9 +6,9 @@ async function run(){
 
     const config = {
         auth:{
-            clientId: clientId,
-            authority: authority,
-            redirectUri: redirectUri
+            clientId: '8ecfdcd6-cd01-4f15-935b-af8d2b00c77b',
+            authority: 'https://login.microsoftonline.com/organizations',
+            redirectUri: 'https://jcaraway-na.github.io/Test_MSAL.js/'
         }
     };
 
